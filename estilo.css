@@ -89,6 +89,8 @@ body {
 
 
  .section_bloco_inteiro {
+    margin-left: 4rem;
+    margin-right: 4rem;
     display: flex; /*fica lado a lado*/
     text-align: center;
     gap: 15rem; /*espaço entre as caixinhas da foto*/
@@ -140,8 +142,13 @@ body {
     /*margin-left: 20px;
     margin-right: auto;*/
     width: 400px;
+    height: 250px;
     border: 3px solid green;
     border-radius: 2px;
     text-align: center;
  }
     
+ .vídeo {
+    border: 3px solid green;
+    border-radius: 2px;
+ }
