@@ -88,25 +88,30 @@ body {
  }
 
 
- .bloco_inteiro {
+ .section_bloco_inteiro {
     display: flex; /*fica lado a lado*/
-    text-align: left;
+    text-align: center;
     gap: 15rem; /*espaço entre as caixinhas da foto*/
+
 
 
  }
 
+/*.container {
+    text-align: center;
+}*/
  
  h3 {
     color: black;
     font-size: 1.2rem;
     font-family:'Times New Roman', Times, serif;
-    text-align: auto;
+    text-align: center;
     letter-spacing: 1px;
+
  }   
 
+ 
  .btn {
-    
     color: black;
     background-color: #ccc;
     font-size:  .9rem;
@@ -117,20 +122,26 @@ body {
 
 }
 
+.btn a {
+    text-align: center;
+
+}
+
  .descrição {
     font-family:'Times New Roman', Times, serif;
     color: black;
-    text-align: left;
+    text-align: center;
 
  }
 
-   
- .imagem {
-    display: block;
-    margin-left: 20px;
-    margin-right: auto;
+ 
+ .container img {
+    /*display: block;
+    /*margin-left: 20px;
+    margin-right: auto;*/
     width: 400px;
     border: 3px solid green;
     border-radius: 2px;
+    text-align: center;
  }
     
