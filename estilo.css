@@ -2,8 +2,9 @@
 
 body {
     background-color: rgb(233, 241, 117);
-    margin: 10px 50px 25px;
-   
+    margin: 10px 25px 25px 10px;
+    /*margin: 10px 50px 25px;*/
+    
 }
 
 .gradiente {
@@ -34,7 +35,7 @@ body {
 .menu ul{
     text-align: right;
     /*color:yellow*/
-    margin-right: 3px;
+    margin-right: 4px;
    
 
 }
@@ -78,6 +79,8 @@ body {
     font-style: normal;
     text-align: left;
     letter-spacing: 1px;
+    margin:3px;
+
 
 
  }
@@ -85,30 +88,42 @@ body {
  
  .corpo_da_home {
     text-align: center;
+    
  }
 
-
+ 
  .section_bloco_inteiro {
-    margin-left: 4rem;
-    margin-right: 4rem;
+    /*bloco inteiro com as 3 caixas*/
+    margin-left: 3px;
+    margin-right: 3px;
+    max-width: fit-content;
     display: flex; /*fica lado a lado*/
     text-align: center;
-    gap: 15rem; /*espaço entre as caixinhas da foto*/
+    gap: 1rem; /*espaço entre as caixinhas da foto*/
 
 
 
  }
 
-/*.container {
+.container {
+    /*caixa individual*/
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    margin-left: .1rem;
+    margin-right: .1rem;
+    width: center;
+    max-width: auto;
     text-align: center;
-}*/
+    gap: 2rem;
+}
  
  h3 {
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     letter-spacing: 1px;
+    
 
  }   
 
@@ -130,10 +145,14 @@ body {
 }
 
  .descrição {
+    font-size: .8rem;
     font-family:'Times New Roman', Times, serif;
     color: black;
     text-align: center;
-
+    margin-left: auto;
+    margin-right: auto;
+    
+    
  }
 
  
@@ -141,8 +160,10 @@ body {
     /*display: block;
     /*margin-left: 20px;
     margin-right: auto;*/
-    width: 400px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     border: 3px solid green;
     border-radius: 2px;
     text-align: center;
@@ -152,3 +173,39 @@ body {
     border: 3px solid green;
     border-radius: 2px;
  }
+
+ .objetivos_ods {
+    border: 3px solid rgb(53, 214, 53);
+   
+
+ }
+
+ .imagem_prato {
+    width: 300px;
+    height: 150px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 5px;
+
+}
+
+.article_objetivos p{
+    display: flexbox;
+    text-align: center;
+    color: black;
+
+}
+
+.rodapé {
+    color: black;
+    background-color: #adacac;
+    text-align: center;
+    padding-bottom: 0;
+    text-shadow: 2px 2px 2px black;
+    /*para distanciar as letras letter-spacing*/
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 11px;
+
+}
