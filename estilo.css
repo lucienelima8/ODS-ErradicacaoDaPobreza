@@ -14,7 +14,46 @@ body {
     padding-top: 1px;
     padding-bottom: 1px;
     background-image: linear-gradient(green, yellow);
+    border-radius: 5px;
 }
+
+.menu ul{
+    text-align: right;
+    /*color:yellow*/
+    margin-right: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+}
+
+.menu li {
+    color: yellow;
+    display: block;
+    display: inline-block;
+    margin-top: auto;
+    gap: .6rem;
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif;
+    border: solid 2px;
+    padding: .40em 1em;
+    border-radius: 35px;
+    background-color: #ccc;
+
+}
+
+.menu a {
+    color: black;
+    /*display: block;*/
+    text-decoration: none;
+        
+}
+
+   
+.menu ul a:hover {
+    background-color: rgb(63, 182, 63);
+    
+    
+ }
 
 .header {
     /*display: flex;*/
@@ -62,52 +101,11 @@ h1 {
     margin-top: auto;
     margin-bottom: 10px;
     /*display:inline-flexbox;*/
-
     /*background-color: rgb(238, 238, 131);*/
     
 }
    
 
-.menu ul{
-    text-align: right;
-    /*color:yellow*/
-    margin-right: 4px;
-   
-
-}
-
-.menu li {
-    color: yellow;
-    display: block;
-    display: inline-block;
-    margin-top: auto;
-    margin-top: 1px;
-    gap: .6rem;
-    font-size: 1rem;
-    font-family:'Times New Roman', Times, serif;
-    border: solid 2px;
-    padding: .40em 1em;
-    border-radius: 35px;
-    background-color: #ccc;
-
-}
-
-.menu a {
-    color: black;
-    /*display: block;*/
-    text-decoration: none;
-    
-    
-}
-
-   
-.menu ul a:hover {
-    background-color: rgb(63, 182, 63);
-    
-    
- }
-
- 
  h2 {
     color: black;
     font-family: Comic Sans MS;
@@ -115,8 +113,9 @@ h1 {
     font-style: normal;
     text-align: left;
     letter-spacing: 1px;
-    margin:3px;
+    margin-left: 1.5rem;
     margin-top: 2rem;
+
 
 
 
@@ -125,9 +124,8 @@ h1 {
  
  .corpo_da_home {
     text-align: center;
-    
-    
-    
+    display: flexbox;   
+       
     
  }
 
@@ -139,15 +137,16 @@ h1 {
     margin-right: 3px;
     max-width: fit-content;
     display: flex; /*fica lado a lado*/
+    display: flexbox;
     text-align: center;
     gap: 1rem; /*espaço entre as caixinhas da foto*/
-
 
 
  }
 
 .container {
     /*caixa individual*/
+    display: flexbox;
     border: 2px solid #ccc;
     border-radius: 15px;
     margin-left: .1rem;
@@ -215,12 +214,21 @@ h1 {
     border-radius: 2px;
  }
 
+ .imagem_mercosul {
+    border: 2px solid green;
+    border-radius: 10px;
+    /*margin-left: 10px;*/
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+
+ }
+
  .objetivos_ods {
     border: 3px solid rgb(53, 214, 53);
     border-radius: 5px;
     margin-top: 2rem;
-
-   
+    margin-bottom: 2rem;
 
  }
 
@@ -228,9 +236,11 @@ h1 {
 .article_objetivos p{
     display: flexbox;
     text-align: left;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /*margin-left: 1rem;
+    margin-right: 1rem;*/
+    margin: 1rem 1.5rem 1rem 1.5rem;
     color: black;
+    
 
 }
 
