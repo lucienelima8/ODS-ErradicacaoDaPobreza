@@ -147,7 +147,7 @@ h1 {
 .container {
     /*caixa individual*/
     display: flexbox;
-    border: 2px solid #ccc;
+    border: 3px solid rgb(53, 214, 53);
     border-radius: 15px;
     margin-left: .1rem;
     margin-right: .1rem;
@@ -214,15 +214,7 @@ h1 {
     border-radius: 2px;
  }
 
- .imagem_mercosul {
-    border: 2px solid green;
-    border-radius: 10px;
-    /*margin-left: 10px;*/
-    width: 200px;
-    height: 150px;
-    display: inline-block;
-
- }
+ 
 
  .objetivos_ods {
     border: 3px solid rgb(53, 214, 53);
@@ -243,6 +235,36 @@ h1 {
     
 
 }
+
+.title_mercosul {
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.mercosul {
+    border: 3px solid rgb(53, 214, 53);
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+ .imagem_mercosul {
+    border: 2px solid green;
+    border-radius: 10px;
+    /*margin-left: 10px;*/
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+
+ }
 
 .rodapé {
     color: black;
