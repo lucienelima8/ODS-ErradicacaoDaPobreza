@@ -8,25 +8,61 @@ body {
 }
 
 .gradiente {
+    height: auto;
     margin: auto;
     margin-top:10px;
     padding-top: 1px;
+    padding-bottom: 1px;
     background-image: linear-gradient(green, yellow);
 }
 
-.title {
-    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
-    font-size: 3.0rem;
+.header {
+    /*display: flex;*/
     text-align: center;
-    margin-bottom: 1px;
-    margin-top: 1px;
+}
+
+.imagem_prato {
+    border: 2px solid green;
+    border-radius: 10px;
+    /*margin-left: 10px;*/
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+
 
 }
+
+h1 {
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 3.0rem;
+    text-align: center;
+
+    /*display: inline-block;*/
+
+}
+
+
+/*.title {
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    /*font-size: 3.0rem;*/
+    /*margin-bottom: 1px;*/
+    /*margin-top: 1px;*/
+    /*display: flexbox;*/
+    /*display:inline-flexbox;*/
+    /*ext-align: center;*/
+
 
 .titleparágrafo {
     font-family: Comic Sans MS;
     color:black;
+    gap: 1px;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+    /*display:inline-flexbox;*/
+
     /*background-color: rgb(238, 238, 131);*/
     
 }
@@ -80,6 +116,7 @@ body {
     text-align: left;
     letter-spacing: 1px;
     margin:3px;
+    margin-top: 2rem;
 
 
 
@@ -89,11 +126,15 @@ body {
  .corpo_da_home {
     text-align: center;
     
+    
+    
+    
  }
 
  
  .section_bloco_inteiro {
     /*bloco inteiro com as 3 caixas*/
+    margin-top: 2rem;
     margin-left: 3px;
     margin-right: 3px;
     max-width: fit-content;
@@ -176,22 +217,19 @@ body {
 
  .objetivos_ods {
     border: 3px solid rgb(53, 214, 53);
+    border-radius: 5px;
+    margin-top: 2rem;
+
    
 
  }
 
- .imagem_prato {
-    width: 300px;
-    height: 150px;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 5px;
-
-}
-
+ 
 .article_objetivos p{
     display: flexbox;
-    text-align: center;
+    text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
     color: black;
 
 }
