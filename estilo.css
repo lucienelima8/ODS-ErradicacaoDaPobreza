@@ -249,7 +249,7 @@ details summary {
 
 /*Abaixo, seletor por atributo*/
 details[open] {
-    background-color: rgb(99, 238, 99);
+    background-color: rgb(76, 204, 76);
     margin-bottom: auto;
 
     color: black;
