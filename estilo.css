@@ -236,6 +236,26 @@ h1 {
 
 }
 
+details {
+    color: red;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+details summary {
+    cursor: pointer;
+
+}
+
+/*Abaixo, seletor por atributo*/
+details[open] {
+    background-color: rgb(99, 238, 99);
+    margin-bottom: auto;
+
+    color: black;
+}
+
+
 .title_mercosul {
     font-family:'Times New Roman', Times, serif;
     text-align: left;
