@@ -4,6 +4,8 @@ body {
     background-color: rgb(233, 241, 117);
     margin: 10px 25px 25px 10px;
     /*margin: 10px 50px 25px;*/
+
+    
     
 }
 
@@ -125,9 +127,9 @@ h1 {
  
  .corpo_da_home {
     text-align: center;
-    display: flexbox;   
-       
-    
+    display: flexbox;  
+
+              
  }
 
  
@@ -141,6 +143,8 @@ h1 {
     display: flexbox;
     text-align: center;
     gap: 1rem; /*espaço entre as caixinhas da foto*/
+
+  
 
 
  }
@@ -156,6 +160,9 @@ h1 {
     max-width: auto;
     text-align: center;
     gap: 2rem;
+    
+
+
 }
  
  h3 {
@@ -206,14 +213,14 @@ h1 {
     margin-left: 2rem;
     margin-right: 2rem;
     border: 3px solid green;
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: 2px 2px #363636;
     text-align: center;
  }
     
  .vídeo {
     border: 3px solid green;
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: 2px 2px #363636;
 
  }
