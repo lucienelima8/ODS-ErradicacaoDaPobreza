@@ -13,7 +13,8 @@ body {
     margin-top:10px;
     padding-top: 1px;
     padding-bottom: 1px;
-    background-image: linear-gradient(green, yellow);
+    background-image: linear-gradient(rgb(40, 170, 40), rgb(44, 44, 245), rgb(221, 221, 43));
+    /*background-image: linear-gradient(green, yellow);*/
     border-radius: 5px;
 }
 
@@ -115,8 +116,6 @@ h1 {
     letter-spacing: 1px;
     margin-left: 1.5rem;
     margin-top: 2rem;
-
-
 
 
  }
@@ -251,27 +250,20 @@ details summary {
 
 /*Abaixo, seletor por atributo*/
 details[open] {
-    background-color: rgb(76, 204, 76);
+    background-color: rgb(115, 243, 115);
     margin-bottom: auto;
     color: black;
 }
 
 
-.title_mercosul {
-    font-family:'Times New Roman', Times, serif;
-    text-align: left;
-    margin-bottom: auto;
-    margin-top: auto;
-    font-size: 20px;
-    text-align: left;
-
-}
-
 .mercosul {
+    background-image: linear-gradient(rgb(72, 72, 245), rgb(100, 236, 100));
     border: 3px solid rgb(53, 214, 53);
     border-radius: 5px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
+
 }
 
  .imagem_mercosul {
@@ -281,11 +273,26 @@ details[open] {
     margin-top: 3px;
     margin-bottom: 3px;
     margin-left: 3px;
-    width: 200px;
+    width: 300px;
     height: 150px;
-    display: inline-block;
+    /*display: inline-block;*/
 
  }
+
+ .title_mercosul {
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.saiba_mais {
+    color: blue;
+}
+
 
 .rodapé {
     color: black;
