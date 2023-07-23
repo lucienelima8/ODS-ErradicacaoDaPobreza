@@ -13,9 +13,10 @@ body {
     margin-top:10px;
     padding-top: 1px;
     padding-bottom: 1px;
-    background-image: linear-gradient(rgb(40, 170, 40), rgb(44, 44, 245), rgb(221, 221, 43));
+    background-image: linear-gradient(rgb(40, 170, 40),rgb(221, 221, 43), rgb(44, 44, 245));
     /*background-image: linear-gradient(green, yellow);*/
     border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #363636;
 }
 
 .menu ul{
@@ -64,6 +65,7 @@ body {
 .imagem_pobreza {
     border: 2px solid green;
     border-radius: 10px;
+    box-shadow: 2px 2px #363636;
     /*margin-left: 10px;*/
     width: 200px;
     height: 150px;
@@ -205,12 +207,15 @@ h1 {
     margin-right: 2rem;
     border: 3px solid green;
     border-radius: 2px;
+    box-shadow: 2px 2px #363636;
     text-align: center;
  }
     
  .vídeo {
     border: 3px solid green;
     border-radius: 2px;
+    box-shadow: 2px 2px #363636;
+
  }
 
  
@@ -250,7 +255,7 @@ details summary {
 
 /*Abaixo, seletor por atributo*/
 details[open] {
-    background-color: rgb(115, 243, 115);
+    background-color: rgb(169, 248, 169);
     margin-bottom: auto;
     color: black;
 }
@@ -269,10 +274,11 @@ details[open] {
  .imagem_mercosul {
     border: 2px solid green;
     border-radius: 10px;
+    box-shadow: 2px 2px #363636;
     /*margin-left: 10px;*/
-    margin-top: 3px;
-    margin-bottom: 3px;
-    margin-left: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /*margin-left: 3px;*/
     width: 300px;
     height: 150px;
     /*display: inline-block;*/
