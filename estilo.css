@@ -60,7 +60,7 @@ body {
     text-align: center;
 }
 
-.imagem_prato {
+.imagem_pobreza {
     border: 2px solid green;
     border-radius: 10px;
     /*margin-left: 10px;*/
@@ -240,6 +240,8 @@ details {
     color: red;
     margin-bottom: 1em;
     padding: .5em;
+
+    
 }
 
 details summary {
@@ -251,7 +253,6 @@ details summary {
 details[open] {
     background-color: rgb(76, 204, 76);
     margin-bottom: auto;
-
     color: black;
 }
 
