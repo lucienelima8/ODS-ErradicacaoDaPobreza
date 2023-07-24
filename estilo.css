@@ -1,4 +1,7 @@
+:root {
+    --background-image: linear-gradient(rgb(40, 170, 40),rgb(221, 221, 43), rgb(44, 44, 245));
 
+}
 
 body {
     background-color: rgb(233, 241, 117);
@@ -14,7 +17,8 @@ body {
     margin-top:10px;
     padding-top: 1px;
     padding-bottom: 1px;
-    background-image: linear-gradient(rgb(40, 170, 40),rgb(221, 221, 43), rgb(44, 44, 245));
+    background-image: var(--background-image);
+    /*background-image: linear-gradient(rgb(40, 170, 40),rgb(221, 221, 43), rgb(44, 44, 245));
     /*background-image: linear-gradient(green, yellow);*/
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px #363636;
@@ -321,3 +325,32 @@ details[open] {
     font-size: 11px;
 
 }
+
+.governo_no_combate {
+    background-image: var( --background-image);
+    border: 3px solid rgb(53, 214, 53);
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+.texto_gov {
+    display: flexbox;
+}
+
+.imagem_gov {
+    border: 2px solid green;
+    border-radius: 10px;
+    box-shadow: 2px 2px #363636;
+    /*margin-left: 10px;*/
+    margin-top: 4px;
+    margin-bottom: 4px;
+    /*margin-left: 3px;*/
+    width: 300px;
+    height: 150px;
+    /*display: inline-block;*/
+
+}
+
