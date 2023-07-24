@@ -5,8 +5,7 @@ body {
     margin: 10px 25px 25px 10px;
     /*margin: 10px 50px 25px;*/
 
-    
-    
+        
 }
 
 .gradiente {
@@ -23,7 +22,6 @@ body {
 
 .menu ul{
     text-align: right;
-    /*color:yellow*/
     margin-right: 4px;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -129,6 +127,7 @@ h1 {
     text-align: center;
     display: flexbox;  
 
+
               
  }
 
@@ -145,7 +144,6 @@ h1 {
     gap: 1rem; /*espaço entre as caixinhas da foto*/
 
   
-
 
  }
 
