@@ -129,10 +129,9 @@ h1 {
  
  .corpo_da_home {
     text-align: center;
-    display: flexbox;  
-
-
-              
+    display: flexbox; 
+  
+               
  }
 
  
@@ -146,8 +145,9 @@ h1 {
     display: flexbox;
     text-align: center;
     gap: 1rem; /*espaço entre as caixinhas da foto*/
+    justify-content: center;
 
-  
+
 
  }
 
@@ -162,7 +162,6 @@ h1 {
     max-width: auto;
     text-align: center;
     gap: 2rem;
-    
 
 
 }
@@ -173,6 +172,7 @@ h1 {
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     letter-spacing: 1px;
+
     
 
  }   
