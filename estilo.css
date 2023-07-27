@@ -307,6 +307,10 @@ details[open] {
 
 .saiba_mais {
     color: blue;
+    text-decoration: none;
+    font-size: 1.1rem;
+    /*letter-spacing: 1px; */
+
 }
 
 
@@ -351,4 +355,17 @@ details[open] {
     /*display: inline-block;*/
 
 }
+
+.autor {
+    text-align: left;
+    /*margin-bottom: 10px;*/
+    letter-spacing: 1px;
+    /*margin-left: 1.5rem;
+    margin-top: 2rem;*/
+    margin: 1rem 1.5rem 1rem .7rem;
+    font-size: .99rem;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+
 
