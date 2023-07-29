@@ -198,11 +198,30 @@
 
     <h2 id="formulario">Formulário:</h2>
 
-    <form class="form">
+    <form action="" method="get" autocomplete="off" class="form">
+        <fieldset>
+            <legend>Entre em contato:</legend> 
+            <label for="">Nome:</label>
+            <br>
+            <input type="text" name="nome" required placeholder="Digite seu nome completo">
+            <br>
+            <label for="">Telefone:</label>
+            <br>
+            <input type="número" name="número">
+            <br>
+            <label for="email">E-mail</label>
+            <br>
+            <input type="email" name="email"  required placeholder="Digite um e-mail válido" >
+            <br>
+            <label for="">Mensagem:</label>
+            <br>
+            <textarea name="msgm" cols="50" rows="10" maxlength="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar" class="btn2">
+          
+        </fieldset>
 
     </form>
-
-
 
     <h2 id="sobre">Sobre o autor:</h2>
 
@@ -211,7 +230,7 @@
 
     
     
- <footer class="rodapé">Desenvolvido por Luciene Lima</footer>
+ <footer class="rodapé">Desenvolvido por Luciene Lima - 2023</footer>
    
 
 </body>

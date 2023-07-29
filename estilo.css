@@ -356,6 +356,79 @@ details[open] {
 
 }
 
+
+.form {
+
+    display: flex;
+    text-align: left;
+    border-radius: 5px;
+    /*border-shadow pra dar uma pequena sombra ao redor*/
+    box-shadow: 3px 3px 3px 3px green;
+    padding: 1em;
+    
+}
+
+.form fieldset {
+    /*text-align: justify;
+    width: 50%;*/
+    border: none;
+    padding: 0;
+    margin: 0;
+     
+}
+
+.form legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+    margin-bottom: 1.5rem;
+
+
+}
+
+.form label {
+    font-weight: bold;
+    font-size: 1.em;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(30, 201, 30);
+    margin-bottom: .25em;
+
+
+}
+
+.form input {
+    padding: .7em;
+    border: 5px;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid rgb(35, 238, 35);
+    font-size: 1.em;
+    width: 80%;
+    margin-top: 2px;
+
+}
+
+.form textarea {
+    /*para o usuário nao aumentar a caixa de msgm*/
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid rgb(35, 238, 35);
+
+}
+
+.btn2 {
+    text-align: center;
+    background-color: yellow;
+    color: rgb(30, 201, 30);
+    cursor: pointer;
+    max-width: 20%;
+    
+
+}
+
+
 .autor {
     text-align: left;
     /*margin-bottom: 10px;*/
