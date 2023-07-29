@@ -442,14 +442,6 @@ details[open] {
 }
 
 
-.autor {
-    text-align: left;
-    letter-spacing: 1px;
-    margin: 1rem 1.5rem 1rem .7rem;
-    font-size: .99rem;
-    font-family:'Times New Roman', Times, serif;
-    color: black;
-}
 
 .article__ref {
     border: 3px solid rgb(53, 214, 53);
@@ -480,6 +472,15 @@ details[open] {
     background-color: rgb(169, 248, 169);
     margin-bottom: auto;
     color: green;
+}
+
+.autor {
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 1rem 1.5rem 1rem .7rem;
+    font-size: .99rem;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
 }
 
 .rodapé {
