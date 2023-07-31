@@ -11,6 +11,14 @@ body {
         
 }
 
+
+/*.fixed { /*pra deixar a parte de cima fixada*/
+    /*position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;*/
+
+
 .gradiente {
     height: auto;
     margin: auto;
@@ -23,6 +31,7 @@ body {
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px #363636;
 }
+
 
 .menu ul{
     text-align: right;
@@ -471,7 +480,7 @@ h1 {
 
 /*Abaixo, seletor por atributo*/
 .details__ref[open] {
-    background-color: rgb(169, 248, 169);
+    background-color: rgb(144, 241, 144);
     margin-bottom: auto;
     color: green;
 }
@@ -483,7 +492,27 @@ h1 {
     font-size: .99rem;
     font-family:'Times New Roman', Times, serif;
     color: black;
+   
 }
+
+
+.subir {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #ccc;
+    font-size:  .9rem;
+    text-decoration: none;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1.5rem 1rem .7rem;
+    
+     
+}
+
 
 .rodapé {
     color: black;
@@ -492,7 +521,7 @@ h1 {
     padding-bottom: 0;
     text-shadow: 2px 2px 2px black;
     letter-spacing: 2px; /*para distanciar as letras*/
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
     font-size: 11px;
 
