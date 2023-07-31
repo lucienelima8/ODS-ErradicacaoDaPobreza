@@ -218,6 +218,7 @@ h1 {
  
 
  .objetivos_ods {
+    background-image: linear-gradient(rgb(72, 72, 245), rgb(100, 236, 100));
     border: 3px solid rgb(53, 214, 53);
     border-radius: 5px;
     margin-top: 2rem;
@@ -237,29 +238,29 @@ h1 {
 
 }
 
-details {
+/*details {
     color: red;
     margin-bottom: 1em;
-    padding: .5em;
+    padding: .5em;*/
 
     
-}
 
-details summary {
-    cursor: pointer;
 
-}
+/*details summary {
+    cursor: pointer;*/
+
+
 
 /*Abaixo, seletor por atributo*/
-details[open] {
+/*details[open] {
     background-color: rgb(169, 248, 169);
     margin-bottom: auto;
-    color: black;
-}
+    color: black;*/
+
 
 
 .mercosul {
-    background-image: linear-gradient(rgb(72, 72, 245), rgb(100, 236, 100));
+    background-image: var( --background-image);
     border: 3px solid rgb(53, 214, 53);
     border-radius: 5px;
     margin-top: 2rem;
@@ -464,6 +465,7 @@ details[open] {
     color: black;
     margin-bottom: 1em;
     padding: .5em;
+    cursor: pointer;
 
 }
 
