@@ -66,6 +66,7 @@ body {
     /*display: block;*/
     text-decoration: none;
     
+    
         
 }
 
@@ -101,6 +102,7 @@ h1 {
     text-align: center;
     /*display: inline-block;*/
 
+
 }
 
 
@@ -113,6 +115,18 @@ h1 {
     margin-bottom: 10px;
     /*display:inline-flexbox;*/
     /*background-color: rgb(238, 238, 131);*/
+    
+}
+
+.titleparágrafo2 {
+    font-family: Comic Sans MS;
+    color:black;
+    gap: 1px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+    opacity: .6;
+
     
 }
    
@@ -134,8 +148,8 @@ h1 {
  .corpo_da_home {
     text-align: center;
     display: flexbox; 
-  
-               
+
+                   
  }
 
  
@@ -149,7 +163,9 @@ h1 {
     text-align: center;
     gap: 1rem; /*espaço entre as caixinhas da foto*/
     justify-content: center;
+    
 
+    
  }
 
 .container { /*caixa individual*/
@@ -162,8 +178,9 @@ h1 {
     max-width: auto;
     text-align: center;
     gap: 2rem;
+    
 
-
+   
 }
  
  h3 {
