@@ -147,7 +147,8 @@ h1 {
  
  .corpo_da_home {
     text-align: center;
-    display: flexbox; 
+    display: flex; 
+    justify-content: center; /*AGORA*/
 
                    
  }
@@ -157,9 +158,10 @@ h1 {
     margin-top: 2rem;
     margin-left: 3px;
     margin-right: 3px;
-    max-width: fit-content;
+    /*max-width: fit-content;*/ /*como estava antes*/
+    max-width: 90%; /*AGORA*/
     display: flex; /*fica lado a lado*/
-    display: flexbox;
+    /*display: flexbox;*/
     text-align: center;
     gap: 1rem; /*espaço entre as caixinhas da foto*/
     justify-content: center;
@@ -169,7 +171,7 @@ h1 {
  }
 
 .container { /*caixa individual*/
-    display: flexbox;
+    /*display: flexbox;*/
     border: 3px solid rgb(53, 214, 53);
     border-radius: 15px;
     margin-left: .1rem;
@@ -179,7 +181,6 @@ h1 {
     text-align: center;
     gap: 2rem;
     
-
    
 }
  
