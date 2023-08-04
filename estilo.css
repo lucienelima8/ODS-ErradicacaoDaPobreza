@@ -153,9 +153,20 @@ h1 {
  .corpo_da_home {
     text-align: center;
     display: flex; 
-    justify-content: center; /*AGORA*/
+    /*justify-content: center;*/
+    justify-content: space-around; /* TESTE AGORA*/
 
+    max-width: 100%; /* TESTE AGORA*/
                    
+ }
+ 
+ /*TESTE AGORA*/
+ @media screen and (max-width: 768px) {
+    .corpo_da_home {
+        width: 100%;
+        flex-direction: column;
+    }
+    
  }
 
  /*Bloco inteiro com as 6 caixinhas/containers*/
@@ -164,7 +175,7 @@ h1 {
     margin-left: 3px;
     margin-right: 3px;
     /*max-width: fit-content;*/ /*como estava antes*/
-    max-width: 90%; /*AGORA*/
+    max-width: 90%; 
     display: flex; /*fica lado a lado*/
     /*display: flexbox;*/
     text-align: center;
