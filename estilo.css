@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: rgb(233, 241, 117);
+    background-color: rgb(243, 243, 163);
+    /*background-color: rgb(233, 241, 117);*/
     margin: 10px 10px 0px 10px;
     /*margin: 10px 50px 25px;*/
 
@@ -18,7 +19,7 @@ body {
     top: 0;
     left: 0;*/
 
-
+ /*Onde está o header, ul, li, a, título, imagem do título...*/
 .gradiente {
     height: auto;
     margin: auto;
@@ -33,7 +34,7 @@ body {
     
 }
 
-
+ 
 .menu ul{
     text-align: center;
     /*margin-right: 4px;*/
@@ -44,6 +45,7 @@ body {
 
 }
 
+ /*Nome de cada Seção*/
 .menu li {
     color: yellow;
     display: block;
@@ -58,30 +60,31 @@ body {
     background-color: #ccc;
 
     
-
 }
 
+ /*Link pra cada seção*/ 
 .menu a {
     color: black;
     /*display: block;*/
-    text-decoration: none;
-    
-    
-        
+    text-decoration: none;     
+     
 }
 
-   
+ /*Animação pra quando o usuário passar o mouse sobre o nome de cada seção do menu*/
 .menu ul a:hover {
-    background-color: rgb(63, 182, 63);
-    
+    background-color: rgb(63, 182, 63);    
     
  }
 
+
+ /*Div dentro do header*/
 .header {
     /*display: flex;*/
     text-align: center;
 }
 
+
+ /*Imagem do header, do topo da página*/
 .imagem_pobreza {
     border: 2px solid green;
     border-radius: 10px;
@@ -94,6 +97,7 @@ body {
 
 }
 
+ /*Titulo: Erradicação da Pobreza, no header*/
 h1 {
     text-align: center;
     margin-bottom: auto;
@@ -105,7 +109,7 @@ h1 {
 
 }
 
-
+ /*Parágrafo embaixo do título, no header*/
 .titleparágrafo {
     font-family: Comic Sans MS;
     color:black;
@@ -118,6 +122,7 @@ h1 {
     
 }
 
+ /*Parágrafo embaixo da foto do título, no header*/
 .titleparágrafo2 {
     font-family: Comic Sans MS;
     color:black;
@@ -130,7 +135,7 @@ h1 {
     
 }
    
-
+ /*Cada seção do trabalho: home, objetivos, curiosidade...*/
  h2 {
     color: black;
     font-family: Comic Sans MS;
@@ -144,7 +149,7 @@ h1 {
 
  }
 
- 
+ /*Seção Home*/
  .corpo_da_home {
     text-align: center;
     display: flex; 
@@ -153,8 +158,8 @@ h1 {
                    
  }
 
- 
- .section_bloco_inteiro {  /*bloco inteiro com as 3 caixas*/
+ /*Bloco inteiro com as 6 caixinhas/containers*/
+ .section_bloco_inteiro {  
     margin-top: 2rem;
     margin-left: 3px;
     margin-right: 3px;
@@ -166,11 +171,11 @@ h1 {
     gap: 1rem; /*espaço entre as caixinhas da foto*/
     justify-content: center;
     
-
     
  }
 
-.container { /*caixa individual*/
+ /*Cada container/caixa*/
+.container { 
     /*display: flexbox;*/
     border: 3px solid rgb(53, 214, 53);
     border-radius: 15px;
@@ -181,21 +186,19 @@ h1 {
     text-align: center;
     gap: 2rem;
     
-   
 }
- 
+
+ /*Título dentro de cada container, título dentro das seções curiosidade e combate*/
  h3 {
     color: black;
     font-size: 1.1rem;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     letter-spacing: 1px;
-
-    
-
+  
  }   
 
- 
+ /*Cada link no botão de cada container*/
  .btn {
     color: black;
     background-color: #ccc;
@@ -206,12 +209,13 @@ h1 {
     /*display: inline-block;*/
 
 }
-
+ /*Link de cada botão dos containers*/
 .btn a {
     text-align: center;
 
 }
 
+ /*Parágrafo dentro de cada container*/
  .descrição {
     font-size: .8rem;
     font-family:'Times New Roman', Times, serif;
@@ -237,7 +241,8 @@ h1 {
     box-shadow: 2px 2px #363636;
     text-align: center;
  }
-    
+  
+ 
  .vídeo {
     border: 3px solid green;
     border-radius: 5px;
@@ -245,11 +250,12 @@ h1 {
 
  }
 
+ /*Fonte/Referência embaixo das fotos e vídeos*/
  .fonte {
     font-size: 10px;
  }
  
-
+ /*Seção Objetivos*/
  .objetivos_ods {
     background-image: linear-gradient(rgb(72, 72, 245), rgb(100, 236, 100));
     border: 3px solid rgb(53, 214, 53);
@@ -259,7 +265,7 @@ h1 {
 
  }
 
- 
+ /*Descrição dos  objetivos*/
 .article_objetivos p{
     display: flexbox;
     text-align: left;
@@ -268,30 +274,26 @@ h1 {
     margin: 1rem 1.5rem 1rem 1.5rem;
     color: black;
     
-
 }
 
-/*details {
+ /*details {
     color: red;
     margin-bottom: 1em;
     padding: .5em;*/
+ 
 
-    
-
-
-/*details summary {
+ /*details summary {
     cursor: pointer;*/
 
 
-
-/*Abaixo, seletor por atributo*/
-/*details[open] {
+ /*Abaixo, seletor por atributo*/
+ /*details[open] {
     background-color: rgb(169, 248, 169);
     margin-bottom: auto;
     color: black;*/
 
 
-
+ /*Seção Curiosidade*/
 .mercosul {
     background-image: var( --background-image);
     border: 3px solid rgb(53, 214, 53);
@@ -301,6 +303,20 @@ h1 {
     text-align: center;
 
 }
+
+ /*Título h1 da seção Curiosidade*/
+.title_mercosul {
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+
 
  .imagem_mercosul {
     border: 2px solid green;
@@ -316,24 +332,16 @@ h1 {
 
  }
 
- .title_mercosul {
-    font-family:'Times New Roman', Times, serif;
-    text-align: left;
-    margin-bottom: auto;
-    margin-top: auto;
-    font-size: 20px;
-    text-align: center;
-
-}
-
+ /*Saiba/Leia mais do Combate e Curiosidade*/
 .saiba_mais {
     color: blue;
+    /*color: blue;*/
     text-decoration: none;
     font-size: 1.1rem;
 
 }
 
-
+ /*Seção Combate*/
 .governo_no_combate {
     background-image: var( --background-image);
     border: 3px solid rgb(53, 214, 53);
@@ -341,12 +349,28 @@ h1 {
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    
 
 }
 
+ /*Article da seção Combate*/
 .texto_gov {
     display: flexbox;
 }
+
+
+ /*Título h3 do Combate: Bolsa família...*/
+.title_gov {
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
 
 .imagem_gov {
     border: 2px solid green;
@@ -362,6 +386,7 @@ h1 {
 
 }
 
+ /*Seção do formulário*/
 .section_form {
     align-items: center;
     justify-content: center;
@@ -394,7 +419,7 @@ h1 {
      
 }
 
-
+ /*Título: entre em contato*/
 .form legend {
     font-weight: bold;
     font-size: 1.2rem;
@@ -411,6 +436,7 @@ h1 {
         
 }
 
+ /*Descrição de cada input*/
 .form label {
     font-weight: bold;
     font-size: 1.em;
@@ -422,7 +448,7 @@ h1 {
 }
 
 
-
+ /*Input= entrada de dados do usuário*/
 .form input {
     padding: .7em;
     border: 5px;
@@ -439,12 +465,13 @@ h1 {
 
 }
 
-/*form input:focus = quando clicar no campo ficar amarelo*/
+ /*Animação no contorno de cada input quando usuário clicar*/
 .form input:focus {
-    outline: 4px solid yellow;
+    outline: 2px solid rgb(0, 68, 255); /*form input:focus = quando clicar no campo ficar amarelo*/
 
 }
 
+ /*Caixa de texto*/
 .form textarea {
     resize: none; /*para o usuário nao aumentar a caixa de msgm*/
     border-radius: 5px;
@@ -456,8 +483,10 @@ h1 {
 
 }
 
+ /*Animação no contorno da caixa de texto quando usuário clicar*/
 .form textarea:focus {
-    outline: 4px solid yellow;
+    outline: 2px solid rgb(0, 68, 255);
+
 
 }
 
@@ -472,14 +501,14 @@ h1 {
     
 }
 
-/*hover= mudar de cor ao passar com o mouse*/
-.btn2:hover {
+ /*Botão enviar do form*/
+.btn2:hover { /*hover= mudar de cor ao passar com o mouse*/
     background-color: yellow;
     color:black
 
 }
 
-.autor {
+.autora {
     text-align: left;
     letter-spacing: 1px;
     margin: 1rem 1.5rem 1rem .7rem;
@@ -489,6 +518,7 @@ h1 {
    
 }
 
+ /*Referência*/
 .article__ref {
     border: 3px solid rgb(53, 214, 53);
     border-radius: 5px;
@@ -515,14 +545,14 @@ h1 {
 
 }
 
-/*Abaixo, seletor por atributo*/
+ /*Abaixo, seletor por atributo*/
 .details__ref[open] {
     background-color: rgb(144, 241, 144);
     margin-bottom: auto;
     color: green;
 }
 
-
+ /*UP pro usuário subir pro topo da página*/
 .subir {
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
