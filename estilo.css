@@ -502,7 +502,7 @@ h1 {
 
 }
 
- /*Botão Enviar*/
+ /*Botão enviar do form*/
 .btn2 {
     background-color: rgba(0, 128, 0, 0.822);
     color: yellow;
@@ -611,7 +611,7 @@ h1 {
     font-size: 2.5rem;
     color:rgba(0, 128, 0, 0.664);
     /*gap: 5rem;*/
-    letter-spacing: 30px;
+    letter-spacing: 50%;
 
 
 }
