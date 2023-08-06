@@ -57,7 +57,7 @@ body {
     border: solid 2px;
     padding: .40em 1em;
     border-radius: 35px;
-    background-color: #ccc;
+    background-color: #cccccc;
 
     
 }
@@ -502,14 +502,15 @@ h1 {
 
 }
 
-
+ /*Botão Enviar*/
 .btn2 {
-    background-color: green;
+    background-color: rgba(0, 128, 0, 0.822);
     color: yellow;
     font-weight: bold; /*negrito*/
     cursor: pointer;
     max-width: 20%;
-    margin-bottom: .1rem;   
+    margin-bottom: .1rem;  
+    letter-spacing: 1px; 
     
 }
 
@@ -565,7 +566,7 @@ h1 {
     color: red;
     text-decoration: none;
     border-radius: 6px;
-    background-color: #ccc;
+    background-color: #cccccc6e;
     font-size:  .9rem;
     text-decoration: none;
     padding: 6px;
@@ -608,7 +609,7 @@ h1 {
 /*Configurando os ícones do  linkedin e github*/
 .fa-brands {
     font-size: 2.5rem;
-    color:green;
+    color:rgba(0, 128, 0, 0.664);
     /*gap: 5rem;*/
     letter-spacing: 30px;
 
@@ -623,7 +624,7 @@ h1 {
 
 .rodapé {
     color: black;
-    background-color: #c0bebe;
+    background-color: #c0bebeaf;
     text-align: center;
     padding-bottom: 3px;
     padding-top: 0;
