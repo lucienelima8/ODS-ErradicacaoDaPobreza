@@ -13,11 +13,6 @@ body {
 }
 
 
-/*.fixed { /*pra deixar a parte de cima fixada*/
-    /*position: sticky;
-    width: 100%;
-    top: 0;
-    left: 0;*/
 
  /*Onde está o header, ul, li, a, título, imagem do título...*/
 .gradiente {
@@ -42,7 +37,6 @@ body {
     margin-bottom: 2px;
   
 
-
 }
 
  /*Nome de cada Seção*/
@@ -57,10 +51,17 @@ body {
     border: solid 2px;
     padding: .40em 1em;
     border-radius: 35px;
-    background-color: #cccccc;
-
+    background-color: #cccccc;   
+    
     
 }
+
+ /*selecionando a div dentro da classe menu pra deixar a ul fixada*/
+/*.menu div {
+    position: fixed;
+    top: 10px;
+    text-align: center; }*/
+
 
  /*Link pra cada seção*/ 
 .menu a {
