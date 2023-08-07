@@ -270,7 +270,8 @@ h1 {
  
  /*Seção Objetivos*/
  .objetivos_ods {
-    background-image: linear-gradient(rgb(72, 72, 245), rgb(100, 236, 100));
+    background-image: linear-gradient(rgb(100, 236, 100), rgb(72, 72, 245));
+    /*background-image: linear-gradient(rgb(72, 72, 245), rgb(100, 236, 100));*/
     border: 3px solid rgb(53, 214, 53);
     border-radius: 5px;
     margin-top: 2rem;
