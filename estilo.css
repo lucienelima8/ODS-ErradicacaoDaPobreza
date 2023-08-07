@@ -418,6 +418,8 @@ h1 {
     border: none; /*pra tirar a borda do form*/
     /*largura da borda*/
     /*width: 40%;*/
+    background-color: rgba(233, 241, 117, 0.486);
+    /*background-color: rgba(229, 255, 0, 0.164);*/
 
      
 }
