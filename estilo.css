@@ -29,6 +29,7 @@ body {
     
 }
 
+
  
 .menu ul{
     text-align: center;
@@ -155,17 +156,18 @@ h1 {
     text-align: center;
     display: flex; 
     /*justify-content: center;*/
-    justify-content: space-around; /* TESTE AGORA*/
-
+    justify-content: space-around; /* TESTE AGORA*/ /*Define o alinhamento ao longo do eixo ao redor*/
     max-width: 100%; /* TESTE AGORA*/
                    
  }
  
  /*TESTE AGORA*/
- @media screen and (max-width: 768px) {
-    .corpo_da_home {
-        width: 100%;
-        flex-direction: column;
+ @media screen and (max-width: 800px) {
+    .section_bloco_inteiro {
+        /*width: 100%;*/
+        flex-direction: column; /*vai transformar cada container em coluna quando a tela for <= 800px */
+        align-items: center;
+
     }
     
  }
@@ -182,6 +184,7 @@ h1 {
     text-align: center;
     gap: 1rem; /*espaço entre as caixinhas da foto*/
     justify-content: center;
+
     
  }
 
@@ -193,10 +196,12 @@ h1 {
     border-radius: 15px;
     margin-left: .1rem;
     margin-right: .1rem;
-    width: center;
-    max-width: auto;
+    /*width: center;*/
+    width: fit-content; /*pra se ajustar automático de acordo com o conteúdo dentro*/
+    /*max-width: auto;*/
     text-align: center;
     gap: 2rem;
+
     
 }
 
@@ -405,9 +410,12 @@ h1 {
     justify-content: center;
     display: flex;
     margin-bottom: 3rem;
+    
 
 }
 
+ 
+ /*Formulário*/
 .form {
     /*display: flex;*/
     /*justify-content: center;
@@ -424,12 +432,14 @@ h1 {
      
 }
 
+
 .form fieldset {
     /*text-align: justify;
     width: 50%;*/
     border: none;
     padding: auto;
     margin: .7rem 1rem .2rem 1rem;
+
     
      
 }
@@ -475,6 +485,7 @@ h1 {
     margin-top: 4px;
     flex-grow: 1;
     outline: none;
+
 
         
 
