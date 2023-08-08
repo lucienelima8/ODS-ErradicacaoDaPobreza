@@ -7,7 +7,7 @@ body {
     background-color: rgb(238, 250, 187);
     /*background-color: rgb(234, 243, 195);*/
     /*background-color: rgb(243, 243, 163);*/
-    margin: 10px 10px 0px 10px;
+    margin: 1px 10px 0px 10px;
     /*margin: 10px 50px 25px;*/
         
 }
@@ -18,7 +18,7 @@ body {
 .gradiente {
     height: auto;
     margin: auto;
-    margin-top:10px;
+    margin-top:1px;
     padding-top: 1px;
     padding-bottom: 1px;
     background-image: var(--background-image);
@@ -182,7 +182,6 @@ h1 {
     text-align: center;
     gap: 1rem; /*espaço entre as caixinhas da foto*/
     justify-content: center;
-     
     
  }
 
