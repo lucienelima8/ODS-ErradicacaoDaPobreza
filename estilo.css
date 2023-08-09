@@ -168,9 +168,11 @@ h1 {
         /*width: 100%;*/
         flex-direction: column; /*vai transformar cada container em coluna quando a tela for <= 800px */
         align-items: center;
-
+        
     }
     
+   
+        
  }
 
  /*Bloco inteiro com as 6 caixinhas/containers*/
@@ -411,6 +413,7 @@ h1 {
     justify-content: center;
     display: flex;
     margin-bottom: 3rem;
+
     
 
 }
