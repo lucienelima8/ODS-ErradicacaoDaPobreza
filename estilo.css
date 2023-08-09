@@ -162,19 +162,7 @@ h1 {
                    
  }
  
- /*TESTE AGORA*/
- @media screen and (max-width: 800px) {
-    .section_bloco_inteiro {
-        /*width: 100%;*/
-        flex-direction: column; /*vai transformar cada container em coluna quando a tela for <= 800px */
-        align-items: center;
-        
-    }
-    
-   
-        
- }
-
+ 
  /*Bloco inteiro com as 6 caixinhas/containers*/
  .section_bloco_inteiro {  
     margin-top: 2rem;
@@ -653,3 +641,16 @@ h1 {
     font-size: 11px;
    
 }
+
+
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 800px) {
+    .section_bloco_inteiro {
+        /*width: 100%;*/
+        flex-direction: column; /*vai transformar cada container em coluna quando a tela for <= 800px */
+        align-items: center;
+        
+    }
+       
+        
+ }
