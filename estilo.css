@@ -518,10 +518,11 @@ h1 {
     font-weight: bold; /*negrito*/
     cursor: pointer;
     max-width: 25%;
-    margin-bottom: .1rem;  
-    letter-spacing: 1px; 
-    
-}
+    margin-bottom: .1rem; 
+    /*letter-spacing: 1px;*/ 
+ 
+}    
+
 
  /*Botão enviar do form*/
 .btn2:hover { /*hover= mudar de cor ao passar com o mouse*/
@@ -657,3 +658,5 @@ h1 {
        
         
  }
+
+ 
