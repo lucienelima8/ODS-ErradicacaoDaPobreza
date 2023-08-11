@@ -51,9 +51,12 @@ body {
     font-size: 1rem;
     font-family:'Times New Roman', Times, serif;
     border: solid 2px;
-    padding: .40em 1em;
-    border-radius: 35px;
+    padding: .15em 0; /*esse 0 fez com que o verde preenchesse tudo*/
+    /*padding: .15em 1em;*/
+    border-radius: 15px;
     background-color: #cccccc;   
+    margin-top: 0.2rem;
+
     
     
 }
@@ -69,13 +72,19 @@ body {
 .menu a {
     color: black;
     /*display: block;*/
-    text-decoration: none;     
+    text-decoration: none;
+    padding: .15em 1em;
+    border-radius: 15px;
+
      
 }
 
  /*Animação pra quando o usuário passar o mouse sobre o nome de cada seção do menu*/
 .menu ul a:hover {
-    background-color: rgb(63, 182, 63);    
+    /*background-color: rgb(63, 182, 63);*/
+    background-color: color-mix(in srgb, rgb(40, 170, 40), white);
+    
+
     
  }
 
@@ -653,9 +662,9 @@ h1 {
         /*width: 100%;*/
         flex-direction: column; /*vai transformar cada container em coluna quando a tela for <= 800px */
         align-items: center;
-        
     }
-       
+
+           
         
  }
 
