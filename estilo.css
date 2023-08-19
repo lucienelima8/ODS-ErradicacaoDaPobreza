@@ -164,7 +164,7 @@ h1 {
  /*Seção Home*/
  .corpo_da_home {
     text-align: center;
-    display: flex; 
+    /*display: flex;*/
     /*justify-content: center;*/
     justify-content: space-around;  /*Define o alinhamento ao longo do eixo ao redor*/
     max-width: 100%; 
@@ -175,8 +175,10 @@ h1 {
  /*Bloco inteiro com as 6 caixinhas/containers*/
  .section_bloco_inteiro {  
     margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: 3px;
     margin-right: 3px;
+    margin: auto;
     /*max-width: fit-content;*/ /*como estava antes*/
     max-width: 90%; 
     display: flex; /*fica lado a lado*/
@@ -196,6 +198,7 @@ h1 {
     border-radius: 15px;
     margin-left: .1rem;
     margin-right: .1rem;
+    margin-bottom: 1rem;
     /*width: center;*/
     width: fit-content; /*pra se ajustar automático de acordo com o conteúdo dentro*/
     /*max-width: auto;*/
