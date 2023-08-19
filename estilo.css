@@ -166,8 +166,8 @@ h1 {
     text-align: center;
     display: flex; 
     /*justify-content: center;*/
-    justify-content: space-around; /* TESTE AGORA*/ /*Define o alinhamento ao longo do eixo ao redor*/
-    max-width: 100%; /* TESTE AGORA*/
+    justify-content: space-around;  /*Define o alinhamento ao longo do eixo ao redor*/
+    max-width: 100%; 
                    
  }
  
