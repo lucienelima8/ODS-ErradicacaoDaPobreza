@@ -413,13 +413,10 @@ h1 {
     margin-bottom: 3rem;
     max-width: auto;
     
-
-
     
 }
 
- 
- /*Formulário*/
+/*Formulário*/
 .form {
     /*display: flex;*/
     /*justify-content: center;
@@ -642,7 +639,7 @@ h1 {
 }
 
 
-.rodapé {
+footer {
     color: black;
     background-color: #c0bebeaf;
     text-align: center;
@@ -708,19 +705,42 @@ h1 {
         border-radius: 5px;
         box-shadow: 2px 2px #363636;
         text-align: center;
-     }
+    }
       
      
-     .vídeo {
+    .vídeo {
         border: 3px solid green;
         border-radius: 5px;
         box-shadow: 2px 2px #363636;
         width: 250px;
         height: 150px;
     
-     }
+    }
 
-           
+    /*Seção do formulário*/
+    .section_form {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-bottom: 3rem;
+        max-width: auto;
+        width: 90%;
+    
+    }
+
+      
+    /*Caixa de mensagem*/
+    .form textarea {
+        resize: none; /*para o usuário nao aumentar a caixa de msgm*/
+        border-radius: 5px;
+        margin-bottom: .1rem;
+        border: 1px solid rgb(35, 238, 35);
+        outline: none;
+        flex-wrap: wrap; /*quebra a linha*/
+        width: 80%;
+    }
+
+         
         
  }
 
