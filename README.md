@@ -4,6 +4,9 @@ Trabalho Elas Na Tech sobre a ODS. Tema: Erradicação da Pobreza
 
 <a href="https://lucienelima8.github.io/ODS-ErradicacaoDaPobreza/" target="_blank">ODS</a>
 
+![erradicacao_da_pobreza2](https://github.com/lucienelima8/ODS-ErradicacaoDaPobreza/assets/137119392/5dd99802-bad5-47ef-9886-eadc3cacf892)
+
+
 <br>
 <hr>
 <b>Plágio é crime.<br>
